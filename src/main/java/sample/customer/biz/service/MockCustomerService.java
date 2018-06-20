@@ -66,9 +66,9 @@ public class MockCustomerService implements CustomerService {
     public void initCustomer() {
         nextId = 1;
 
-        register(new Customer("삼돌이", "taro@aa.bb.cc", date("19750111"), 1));
-        register(new Customer("삼순이", "jiro@aa.bb.cc", date("19760212"), 2));
-        register(new Customer("홍길동", "sabc@aa.bb.cc", date("19770313"), 3));
+        register(new Customer("samdol", "taro@aa.bb.cc", date("19750111"), 1));
+        register(new Customer("samsun", "jiro@aa.bb.cc", date("19760212"), 2));
+        register(new Customer("gildong", "sabc@aa.bb.cc", date("19770313"), 3));
     }
 
     private static Date date(String dateString) {
