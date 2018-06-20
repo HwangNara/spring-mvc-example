@@ -10,6 +10,8 @@
   <name>Spring MVC Sample</name>
   <properties>
     <org.springframework-version>4.2.6.RELEASE</org.springframework-version>
+    <project.build.sourceencoding>UTF-8</project.build.sourceencoding>
+    <project.reporting.outputencoding>UTF-8</project.reporting.outputencoding>
   </properties>
 
   <dependencies>
